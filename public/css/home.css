@@ -4,8 +4,8 @@ body{
 }
 /*Banner*/
 .contenedor__banner{
-    display:none;
     width: 100%;
+    display:none;
 }
 /*Producto*/
 .contenedor__imagenes{
@@ -45,4 +45,20 @@ article a{
     padding: 8px 10px;
     display: inline-block;
     margin: 20px 0;
+}
+@media (min-width:768px){
+    .contenedor__banner{
+        width: 100%;
+        display: block;
+    }
+    .contenedor__tarjetas{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    article{
+        width: 49%;
+    }
+
 }

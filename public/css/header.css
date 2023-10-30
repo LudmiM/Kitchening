@@ -27,9 +27,21 @@ header{
     gap: 1px;
 }
 .nav__header ul li{
-    background-color: var(--colorGris);
+    background-color: var(--colorGrisOscuro);
     width: 100%;
     text-align: center;
     text-transform: uppercase;
     padding: 5px 0;
+}
+@media (min-width:768px){
+    .contenedor__burger{
+        display: none;
+    }
+    .nav__header ul{
+        flex-direction: row;
+        gap: 10px;
+    }
+    .nav__header ul li{
+        font-size: 0.9rem;
+    }
 }

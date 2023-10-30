@@ -1,0 +1,18 @@
+footer{
+    width: 100%;
+}
+.nav__footer ul{
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+    width: 100%;
+    gap: 1px;
+}
+.nav__footer ul li{
+    background-color: var(--colorGris);
+    background-color: var(--colorRojo);
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 0;
+}

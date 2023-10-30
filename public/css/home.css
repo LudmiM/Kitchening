@@ -1,3 +1,48 @@
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+/*Banner*/
 .contenedor__banner{
-    display:none
+    display:none;
+    width: 100%;
+}
+/*Producto*/
+.contenedor__imagenes{
+    position: relative;
+}
+.imagen__pedido{
+    width: 100%;
+}
+.imagen__etiqueta__descuento{
+    position: absolute;
+    top:0;
+    right: 10px;
+}
+
+.contenedor__ampliar{
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: #FFF;
+    padding: 8px 0;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+article h3{
+    margin: 20px 0;
+}
+article p{
+    color: var(--colorGris);
+}
+article a{
+    background-color: var(--colorGrisOscuro);
+    padding: 8px 10px;
+    display: inline-block;
+    margin: 20px 0;
 }

@@ -1,11 +1,10 @@
-body{
-    width: 90%;
-    margin: 0 auto;
-}
 /*Banner*/
 .contenedor__banner{
     width: 100%;
     display:none;
+}
+.contenedor__banner img{
+    width: 100%;
 }
 /*Producto*/
 .contenedor__imagenes{
@@ -19,13 +18,11 @@ body{
     top:0;
     right: 10px;
 }
-
 .contenedor__ampliar{
     text-transform: uppercase;
     display: block;
     text-align: center;
     background-color: rgba(0,0,0,0.5);
-    color: #FFF;
     padding: 8px 0;
     position: absolute;
     width: 100%;
@@ -33,6 +30,9 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.contenedor__ampliar p{
+    color: #FFF;
 }
 article h3{
     margin: 20px 0;
@@ -60,5 +60,4 @@ article a{
     article{
         width: 49%;
     }
-
 }

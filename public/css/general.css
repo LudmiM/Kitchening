@@ -8,7 +8,8 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url('/img/bg-body.png');
-    max-width: 1180px;
+    width: 90%;
+    margin: 0 auto;
 }
 :root{
     --colorRojo: #b81e14;

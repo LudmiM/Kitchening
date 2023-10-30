@@ -13,7 +13,7 @@
 .imagen__pedido{
     width: 100%;
 }
-.imagen__etiqueta__descuento{
+.imagen__etiqueta{
     position: absolute;
     top:0;
     right: 10px;

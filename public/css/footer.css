@@ -9,10 +9,28 @@ footer{
     gap: 1px;
 }
 .nav__footer ul li{
-    background-color: var(--colorGris);
     background-color: var(--colorRojo);
-    width: 100%;
+    display: flex;
     text-align: center;
     text-transform: uppercase;
     padding: 5px 0;
+}
+@media (min-width:1024px){
+    .nav__footer{
+        padding: 60px 0;
+        background-color: var(--colorRojo);
+        border-radius: 30px 30px 0 0;
+    }
+    .nav__footer ul{
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+    }
+    .nav__footer ul li{
+        padding: 0 20px;
+        border-right: 1px solid #FFF;
+    }
+    .nav__footer ul li:last-child{
+        border-right: none;
+    }
 }

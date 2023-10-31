@@ -9,6 +9,8 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url('/img/bg-body.png');
     width: 90%;
+    padding: 0 10px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 :root{

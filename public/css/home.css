@@ -48,7 +48,6 @@ article a{
 }
 @media (min-width:768px){
     .contenedor__banner{
-        width: 100%;
         display: block;
     }
     .contenedor__tarjetas{
@@ -59,5 +58,10 @@ article a{
     }
     article{
         width: 49%;
+    }
+}
+@media (min-width:1024px){
+    article{
+        width: 32%;
     }
 }
